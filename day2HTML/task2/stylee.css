@@ -1,0 +1,6 @@
+table {
+  border: 3px solid green;
+}
+table tr {
+  border-color: green;
+}

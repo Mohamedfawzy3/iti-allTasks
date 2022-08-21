@@ -1,0 +1,21 @@
+.all{
+text-align:center;
+background-color: brown;
+color: white;
+padding: 15px;
+}
+.tasks ul{
+display: flex;
+justify-content: center;
+}
+.tasks ul li{
+list-style: none;
+padding: 10px 20px;
+} 
+.tasks ul li a{
+text-decoration: none;
+color: rgb(3, 192, 129);
+}
+.tasks ul li a:hover{
+    color: red;
+}

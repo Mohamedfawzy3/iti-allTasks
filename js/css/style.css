@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+.header {
+  text-align: center;
+  padding: 20px;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 40px;
+}
+.back {
+  color: white;
+  background-color: black;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px 10px;
+}
+.container {
+  width: 90%;
+  margin: auto;
+  background-color: antiquewhite;
+  border: 1px solid red;
+  height: 100vh;
+}
+.container.header span {
+  text-transform: uppercase;
+}
+.container .buttons {
+  text-align: center;
+}
+.container .buttons a {
+  text-decoration: none;
+  color: blue;
+  display: inline-block;
+  border: 1px solid blue;
+  background-color: aqua;
+  margin: 0px 5px;
+  width: calc(85% / 6);
+}
+.container .buttons a:hover {
+  background-color: blue;
+  color: white;
+}
+/* elements block stylee */
+.work-area {
+  height: 200px;
+  width: 200px;
+  background-color: brown;
+}
+.block-but {
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  width: 200px;
+  text-align: center;
+  margin-top: 5px;
+  padding: 5px 0px;
+}
+/* callery stylee */
+.content {
+  padding: 20px 0px 20px 50px;
+}
+h3 {
+  color: rgb(141, 13, 13);
+  margin: 20px 0px;
+}
+.choose-img {
+  display: flex;
+}
+.choose {
+  margin: 10px;
+}
+.choose:hover {
+  cursor: pointer;
+}
+.choose .title {
+  color: blue;
+  font-size: 15px;
+  padding: 5px;
+}
+.choose img {
+  width: 80px;
+  height: 80px;
+}
+.display {
+  height: 300px;
+  width: 300px;
+  color: rgb(153, 152, 152);
+  font-size: 80px;
+  text-align: center;
+  border: 1px solid rgb(192, 190, 190);
+  background-color: aliceblue;
+}
+.display img {
+  width: 100%;
+  height: 100%;
+}

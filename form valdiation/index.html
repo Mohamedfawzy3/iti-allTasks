@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="form">
+      <div class="header">Registeration Form</div>
+      <div class="box" id="name">
+        <label for="">User name:</label>
+        <input type="text" name="user_name"/>
+      </div>
+      <div class="box" id="pass">
+        <label for="">Password:</label>
+        <input type="password" name="password"/>
+      </div>
+      <div class="box" id="age">
+        <label for="age:">Age:</label>
+        <input type="number" name="age" />
+      </div>
+      <div class="box" id="email">
+        <label for="">Email:</label>
+        <input type="email" name="email"/>
+      </div>
+      <div class="box">
+        <div class="label">Gender:</div>
+        <div class="radio">
+          <input type="radio" name="gender" value="Male" />Male
+          <input type="radio" name="gender" value="Female" />Female
+        </div>
+      </div>
+      <div class="box">
+        <div class="label">Interests:</div>
+        <div class="check">
+          <div><input type="checkbox" value="Swimming" />Swimming</div>
+          <div><input type="checkbox" value="Reading" />Reading</div>
+          <div><input type="checkbox" value="Cycling" />Cycling</div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="label">City:</div>
+        <div class="select">
+          <select name="" id="select-country" onchange="check_select_tag()" >
+            <option value="select country">select country</option>
+            <option value="USA">USA</option>
+            <OPtion value="EGY">EGY</OPtion>
+            <option value="PARIS">PARIS</option>
+          
+          </select>
+        </div>
+      </div>
+      <div class="box">
+        <div class="footer">
+          <button value="validation">validation</button>
+          <button value="clear">clear</button>
+        </div>
+      </div>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

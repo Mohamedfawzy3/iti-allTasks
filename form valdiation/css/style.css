@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+.form {
+  width: 70%;
+  margin: auto;
+  padding: 40px 70px;
+  border: 2px solid blue;
+}
+.header {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+.box {
+ 
+display: flex;
+  padding: 10px 0px;
+}
+.box label{
+    display: inline-block;
+    width: 150px;
+}
+.box .label{
+ 
+  width: 150px;
+}
+
+.box:last-child {
+  justify-content: end;
+}
+.footer {
+  padding: 25px 0px 0px;
+}
+.box span{
+  color: red;
+  margin-left: 15px;
+}
