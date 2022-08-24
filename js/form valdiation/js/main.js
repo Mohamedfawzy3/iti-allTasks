@@ -2,7 +2,6 @@ let inputs_field = document.querySelectorAll("label+input");
 let parent_box = document.querySelectorAll(".box");
 let valid = document.querySelector("[value=validation]");
 let clear = document.querySelector("[value=clear]");
-function name_validation() {}
 function create(str) {
   let new_element = document.createElement("span");
   new_element.innerText = str;
@@ -102,7 +101,6 @@ clear.addEventListener("click", () => {
     el.value = "";
   });
   Reset_checkbox();
-
   Reset_radio();
   Reset_selected();
   document.querySelectorAll("span").forEach((span)=>{
